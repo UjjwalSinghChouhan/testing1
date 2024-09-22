@@ -1,6 +1,7 @@
 import React, { useEffect ,useState } from 'react';
 import { CircularProgress } from '@mui/material';
-import Card1 from './Card1';
+
+//import Card1 from './Card1';
 function Api() {
     const [product , setProduct] = useState([]) ;
   useEffect(() => {
@@ -30,3 +31,7 @@ export default Api;
 //TODO fetching data using useEffect
 // step1 import the useEffect from react
 //step2 call the useEffect inside the component
+
+
+
+//git commit changes
